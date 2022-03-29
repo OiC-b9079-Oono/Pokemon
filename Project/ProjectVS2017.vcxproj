@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{582B9C61-742D-4D2B-9C72-42C088CE473D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SimpleProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>../../MofLibrary/Include;../../../MofLibrary/Include;$(IncludePath);</IncludePath>
+    <LibraryPath>../../MofLibrary/Library;../../../MofLibrary/Library;$(LibraryPath);</LibraryPath>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../../MofLibrary/Include;../../../MofLibrary/Include;$(IncludePath);</IncludePath>
+    <LibraryPath>../../MofLibrary/Library;../../../MofLibrary/Library;$(LibraryPath);</LibraryPath>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Library\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Library\Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>USERNAME=$(USERNAME);</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Library\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Library\Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>USERNAME=$(USERNAME);</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CInputManager.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MenuItemBase.cpp" />
+    <ClCompile Include="MenuObject_Mode.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterDataList.cpp" />
+    <ClCompile Include="MonsterData.cpp" />
+    <ClCompile Include="Move.cpp" />
+    <ClCompile Include="MoveList.cpp" />
+    <ClCompile Include="SceneBase.cpp" />
+    <ClCompile Include="SceneBattle.cpp" />
+    <ClCompile Include="SceneOption.cpp" />
+    <ClCompile Include="SceneTitle.cpp" />
+    <ClCompile Include="TypeBase.cpp" />
+    <ClCompile Include="TypeBug.cpp" />
+    <ClCompile Include="TypeDark.cpp" />
+    <ClCompile Include="TypeDragon.cpp" />
+    <ClCompile Include="TypeElectric.cpp" />
+    <ClCompile Include="TypeFairy.cpp" />
+    <ClCompile Include="TypeFighting.cpp" />
+    <ClCompile Include="TypeFire.cpp" />
+    <ClCompile Include="TypeFlying.cpp" />
+    <ClCompile Include="TypeGhost.cpp" />
+    <ClCompile Include="TypeGrass.cpp" />
+    <ClCompile Include="TypeGround.cpp" />
+    <ClCompile Include="TypeIce.cpp" />
+    <ClCompile Include="TypeNormal.cpp" />
+    <ClCompile Include="TypeNull.cpp" />
+    <ClCompile Include="TypePoison.cpp" />
+    <ClCompile Include="TypePsychic.cpp" />
+    <ClCompile Include="TypeRock.cpp" />
+    <ClCompile Include="TypeSteel.cpp" />
+    <ClCompile Include="TypeWater.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdditionalEffect.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CInputManager.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="InputButtonNo.h" />
+    <ClInclude Include="ItemType.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuItemBase.h" />
+    <ClInclude Include="MenuItemFactory.h" />
+    <ClInclude Include="MenuItemStatus.h" />
+    <ClInclude Include="MenuStatus.h" />
+    <ClInclude Include="MenuObject_Mode.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterDataList.h" />
+    <ClInclude Include="MonsterData.h" />
+    <ClInclude Include="Move.h" />
+    <ClInclude Include="MoveList.h" />
+    <ClInclude Include="MoveType.h" />
+    <ClInclude Include="SceneBase.h" />
+    <ClInclude Include="SceneBattle.h" />
+    <ClInclude Include="SceneFactory.h" />
+    <ClInclude Include="SceneOption.h" />
+    <ClInclude Include="SceneType.h" />
+    <ClInclude Include="SceneTitle.h" />
+    <ClInclude Include="Status.h" />
+    <ClInclude Include="TypeBase.h" />
+    <ClInclude Include="TypeBug.h" />
+    <ClInclude Include="TypeDark.h" />
+    <ClInclude Include="TypeDragon.h" />
+    <ClInclude Include="TypeElectric.h" />
+    <ClInclude Include="TypeFactory.h" />
+    <ClInclude Include="TypeFairy.h" />
+    <ClInclude Include="TypeFighting.h" />
+    <ClInclude Include="TypeFire.h" />
+    <ClInclude Include="TypeFlying.h" />
+    <ClInclude Include="TypeGhost.h" />
+    <ClInclude Include="TypeGrass.h" />
+    <ClInclude Include="TypeGround.h" />
+    <ClInclude Include="TypeIce.h" />
+    <ClInclude Include="TypeNo.h" />
+    <ClInclude Include="TypeNormal.h" />
+    <ClInclude Include="TypeNull.h" />
+    <ClInclude Include="TypePoison.h" />
+    <ClInclude Include="TypePsychic.h" />
+    <ClInclude Include="TypeRock.h" />
+    <ClInclude Include="TypeSteel.h" />
+    <ClInclude Include="TypeWater.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Version.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+#pragma once
+enum SceneType {
+	SCENETYPE_TITLE,
+	SCENETYPE_BATTL,
+	SCENETYPE_OPTION,
+};

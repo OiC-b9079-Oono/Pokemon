@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{4561c3ab-95b2-4939-b504-224b008280de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{1dfbc71f-dd80-4079-8052-9b312d14be5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Menu">
+      <UniqueIdentifier>{cf1a2d44-1549-44aa-b9f0-a147b0654a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Menu">
+      <UniqueIdentifier>{3e834195-929a-4428-b435-cad324a4c0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Monster">
+      <UniqueIdentifier>{06f75000-0d9e-4300-bdb4-0ed1242a8d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Monster\Move">
+      <UniqueIdentifier>{f53574ed-9425-466b-9d8f-72c843d238cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Monster">
+      <UniqueIdentifier>{539a83b1-1a97-4b28-8215-d5556575894b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Monster\Move">
+      <UniqueIdentifier>{e730a20a-f52b-41d3-97dc-8075a492874e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Monster\Type">
+      <UniqueIdentifier>{8444e9f5-bc5c-4fd1-b192-dd308da862ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Monster\Type">
+      <UniqueIdentifier>{e73a9d28-c901-4379-a5e2-04d038c2f95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Monster\Monster">
+      <UniqueIdentifier>{0da79b7b-f112-467f-a965-f718ab82a8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Monster\Monster">
+      <UniqueIdentifier>{91eb7d19-96b7-43db-a4e8-ec663c8bca8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MenuObject">
+      <UniqueIdentifier>{ffa9d01e-7275-44e4-a580-67cc6c81f487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{42c85a8f-5e83-4155-be2b-decfe5972220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{d3d18c49-9df3-4db3-8ce3-5ac02b13669c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MenuObject">
+      <UniqueIdentifier>{fe4f4c20-9f71-457e-9d03-1c466c10f19b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeBase.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeWater.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeBug.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeDark.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeDragon.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeElectric.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeFairy.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeFighting.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeFire.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeFlying.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeGhost.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeGrass.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeGround.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeIce.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeNormal.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypePoison.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypePsychic.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeRock.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSteel.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>ソース ファイル\Monster\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveList.cpp">
+      <Filter>ソース ファイル\Monster\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeNull.cpp">
+      <Filter>ソース ファイル\Monster\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBattle.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneOption.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItemBase.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterData.cpp">
+      <Filter>ソース ファイル\Monster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterDataList.cpp">
+      <Filter>ソース ファイル\Monster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>ソース ファイル\Monster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuObject_Mode.cpp">
+      <Filter>ソース ファイル\MenuObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApp.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeBase.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeNo.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeBug.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeDark.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeDragon.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeElectric.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFairy.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFighting.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFire.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFlying.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeGhost.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeGrass.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeGround.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeIce.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeNormal.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypePoison.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypePsychic.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeRock.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSteel.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeWater.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>ヘッダー ファイル\Monster\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveType.h">
+      <Filter>ヘッダー ファイル\Monster\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalEffect.h">
+      <Filter>ヘッダー ファイル\Monster\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFactory.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveList.h">
+      <Filter>ヘッダー ファイル\Monster\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeNull.h">
+      <Filter>ヘッダー ファイル\Monster\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBattle.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneType.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneOption.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFactory.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemBase.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemStatus.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemType.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemFactory.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterData.h">
+      <Filter>ヘッダー ファイル\Monster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>ヘッダー ファイル\Monster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDataList.h">
+      <Filter>ヘッダー ファイル\Monster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>ヘッダー ファイル\Monster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuStatus.h">
+      <Filter>ヘッダー ファイル\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuObject_Mode.h">
+      <Filter>ヘッダー ファイル\MenuObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputButtonNo.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Version.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
